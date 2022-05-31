@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\assets\css\style.css">
+    <title>Password Generator</title>
+ </head>
+
+<body>
+
+    <header>
+        <h1>Password Generator</h1>
+        <h4>Set your filters and create a password</h4>
+    </header>
+  <section id="password">
+    <textarea id="passwordfield" type="text" placeholder="Password"></textarea>
+    <button id="generatebutton">Generate</button>
+    
+  </section>
+  <section id="options">
+    <div>
+    <input id="symboltoggle" type="checkbox" value="symbols" checked>
+    <label id="symbollabel" for="symboltoggle"> Allow symbols</label>
+    </div>
+    <div>
+    <input id="passwordlength" type="numbers"></input>
+    <label id="passwordlabel" for="password"> Password Length</label>
+    </div>
+   </section>
+  <!-- Add ability to filter specific characters or add rules for generation -->
+   <script src=".\assets\js\script.js"></script>
+</body>
+ 
+</html>
